@@ -18,10 +18,6 @@ class Home extends StatefulWidget {
   _HomeState createState() => _HomeState();
 }
 
-/*
-- Scaffold : widget utilizado quando queremos colocar
-a barra superior, lateral, botão flutuante, etc.
-*/
 class _HomeState extends State<Home> {
   String dogName = "";
   int nameDog =
